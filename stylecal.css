@@ -1,30 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: cursive;
-    display: grid;
-    place-items: center;
-    height: 100px;
-    background-image: linear-gradient(to right,rgba(166, 140, 187, 0.89),rgb(57, 2, 121));
-}
 .Calc{
-    margin-top: 600px;  
     width: 30%;
     height: 70%;
     background-color: transparent;
-    position: absolute;
+    position: relative;
     border: 2px solid rgb(180, 219, 198);
     border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
 }
 #ans{
     width: 90%;
+    align-content: center;
     margin-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5rem;
-    border-radius: 10px;
+    color: darkblues;
+    text-align: left;
 }
 .btn input[ type='button']{
     width: 70px;
